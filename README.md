@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+# Getting Started with TextUtils App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Basically, through this app you can analyze your text and much more. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+To redesign this project, you have to clone this repository in your local drive using 
+
+### git clone https://github.com/Sharjeel-Akram/TextUtils/
 
 ## Available Scripts
 
-In the project directory, you can run:
+To start the project, you can run:
 
 ### `npm start`
 
