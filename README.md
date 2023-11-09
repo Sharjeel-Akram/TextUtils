@@ -6,6 +6,10 @@ To redesign this project, you have to clone this repository in your local drive 
 
 ### git clone https://github.com/Sharjeel-Akram/TextUtils/
 
+For Demo you can visit the link below:
+
+### https://sharjeel-akram.github.io/TextUtils/
+
 ## Available Scripts
 
 To start the project, you can run:
