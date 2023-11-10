@@ -56,12 +56,12 @@ export default function TextForm(props) {
                 <div className="mb-3">
                     <textarea className="form-control" style = {{backgroundColor: props.mode === 'dark' ? 'grey': 'white', color: props.mode === 'dark' ? 'white': 'black' }}value={text} onChange={handleChange} id="myBox" rows="8"></textarea>
                 </div>
-                <button className="btn btn-primary mx-1" onClick={handleUpClick}>Convert to Upper Case</button>
-                <button className="btn btn-primary mx-1" onClick={handleloClick}>Convert to Lower Case</button>
-                <button className="btn btn-primary mx-1" onClick={handleClearText}>Clear Text</button>
-                <button className="btn btn-primary mx-1" onClick={handleCopy}>Copy Text</button>
-                <button className="btn btn-primary mx-1" onClick={handleemailText}>Extract Email</button>
-                <button className="btn btn-primary mx-1" onClick={handlextraSpace}>Remove Extra Spaces</button>
+                <button className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>Convert to Upper Case</button>
+                <button className="btn btn-primary mx-1 my-1" onClick={handleloClick}>Convert to Lower Case</button>
+                <button className="btn btn-primary mx-1 my-1" onClick={handleClearText}>Clear Text</button>
+                <button className="btn btn-primary mx-1 my-1" onClick={handleCopy}>Copy Text</button>
+                <button className="btn btn-primary mx-1 my-1" onClick={handleemailText}>Extract Email</button>
+                <button className="btn btn-primary mx-1 my-1" onClick={handlextraSpace}>Remove Extra Spaces</button>
 
             </div>
             <div className={`container my-2 text-${props.mode === 'light' ? 'dark': 'light'}`}>
